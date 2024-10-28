@@ -1,4 +1,4 @@
-const ButtonPrimary = ({ buttonText, buttonStyle }) => {
+const ButtonPrimary = ({ buttonText = "Get in Touch", buttonStyle }) => {
   return (
     //get input from parent component
     <div className={buttonStyle}>

@@ -2,6 +2,8 @@ import Hello from "./components/Hello.jsx";
 import Navbar from "./layout/Navbar.jsx";
 import HeaderSection from "./layout/HeaderSection.jsx";
 import AboutUsContent from "./layout/AboutUsContent.jsx";
+import Team from "./layout/Team.jsx";
+import ContactBanner from "./layout/ContactBanner.jsx";
 import "./App.css";
 
 export default function App() {
@@ -18,7 +20,10 @@ export default function App() {
       <HeaderSection navpage={`About`} />
       <main>
         <AboutUsContent />
+        <Team />
+        <ContactBanner />
       </main>
+      {/* <Footer /> */}
     </>
   );
 }
